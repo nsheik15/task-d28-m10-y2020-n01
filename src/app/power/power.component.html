@@ -1,0 +1,8 @@
+<form class='center' [formGroup]='powerForm' (ngSubmit)="onFind()" >
+  <label>x:</label>
+  <input formControlName='x' type="number"><br>
+  <label>n:</label>
+  <input formControlName='n' type="number"><br>
+  <p> {{ val }} </p>
+  <button type="submit">Find</button>
+</form>
